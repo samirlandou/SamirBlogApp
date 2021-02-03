@@ -84,7 +84,7 @@ const db = require('./config/db')
         useNewUrlParser: true
     }).then(() => {
         console.log('Conectado ao MongoDB!');
-    }).catch((erro) => {
+    }).catch((error) => {
         console.log('Houve um erro ao se conectar ao MongoDB' + error);
     })
 
