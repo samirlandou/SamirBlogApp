@@ -85,7 +85,7 @@ const db = require('./config/db')
     }).then(() => {
         console.log('Conectado ao MongoDB!');
     }).catch((error) => {
-        console.log('Houve um erro ao se conectar ao MongoDB' + error);
+        //console.log('Houve um erro ao se conectar ao MongoDB' + error);
     })
 
 
